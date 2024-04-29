@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd55ce94-f02e-4207-865c-289f420e3500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-admin/src/main/java/com/CodePrep/CodePrepAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-admin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-admin/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-api/src/main/java/CodePrep/CodePrepApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-api/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodePrep-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,36 @@
+2024-05-01 12:19:21 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-01 12:19:21 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][initMultipartResolver][522]-> Detected StandardServletMultipartResolver
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][initLocaleResolver][546]-> Detected AcceptHeaderLocaleResolver
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][initThemeResolver][571]-> Detected FixedThemeResolver
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][initRequestToViewNameTranslator][721]-> Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2d160cac
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][initFlashMapManager][785]-> Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e12e947
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][initServletBean][542]-> enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-01 12:19:21 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 4 ms
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][120]-> GET "/api/test", parameters={}
+2024-05-01 12:19:21 [DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86]-> 'beanNameHandlerMapping' {}
+2024-05-01 12:19:21 [WARN][org.springframework.web.servlet.PageNotFound][noHandlerFound][1283]-> No mapping for GET /api/test
+2024-05-01 12:19:21 [WARN][org.springframework.web.servlet.PageNotFound][handleNoHandlerFoundException][515]-> No handler found for GET /api/test
+2024-05-01 12:19:21 [WARN][org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver][logException][208]-> Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /api/test]
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 404 NOT_FOUND
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][120]-> "ERROR" dispatch for GET "/api/error", parameters={}
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-05-01 12:19:21 [DEBUG][org.springframework.ui.freemarker.SpringTemplateLoader][findTemplateSource][72]-> Looking for FreeMarker template with name [error_zh_CN.ftlh]
+2024-05-01 12:19:21 [DEBUG][org.springframework.ui.freemarker.SpringTemplateLoader][findTemplateSource][72]-> Looking for FreeMarker template with name [error_zh.ftlh]
+2024-05-01 12:19:21 [DEBUG][org.springframework.ui.freemarker.SpringTemplateLoader][findTemplateSource][72]-> Looking for FreeMarker template with name [error.ftlh]
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.view.ContentNegotiatingViewResolver][getBestView][349]-> Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-05-01 12:19:21 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1127]-> Exiting from "ERROR" dispatch, status 404
+2024-05-01 12:19:32 [DEBUG][org.springframework.boot.availability.ApplicationAvailabilityBean][onApplicationEvent][77]-> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-05-01 12:19:32 [DEBUG][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][doClose][1051]-> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ac805af, started on Tue Apr 30 12:29:52 BST 2024
+2024-05-01 12:19:32 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase 2147483647
+2024-05-01 12:19:32 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-05-01 12:19:32 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase 2147483646
+2024-05-01 12:19:32 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'webServerStartStop' completed its stop procedure
+2024-05-01 12:19:32 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase -2147483647
+2024-05-01 12:19:32 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-05-01 12:19:32 [DEBUG][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][220]-> Shutting down ExecutorService 'taskScheduler'
+2024-05-01 12:19:32 [DEBUG][org.springframework.data.redis.listener.RedisMessageListenerContainer][stop][379]-> Stopped RedisMessageListenerContainer.
+2024-05-01 12:19:32 [DEBUG][io.lettuce.core.AbstractRedisClient][shutdownAsync][539]-> Initiate shutdown (100, 100, MILLISECONDS)
+2024-05-01 12:19:32 [DEBUG][io.lettuce.core.resource.DefaultClientResources][shutdown][735]-> Initiate shutdown (0, 2, SECONDS)
+2024-05-01 12:19:32 [DEBUG][io.lettuce.core.resource.DefaultEventLoopGroupProvider][shutdown][317]-> Initiate shutdown (0, 2, SECONDS)
+2024-05-01 12:19:32 [DEBUG][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][shutdown][220]-> Shutting down ExecutorService 'applicationTaskExecutor'

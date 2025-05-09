@@ -47,12 +47,15 @@
 ---
 
 ## 📁 Project Structure
+
+```
 CodePrep/
 ├── backend/                # Spring Boot backend
 ├── frontend-web/           # Vue 3 + Vite frontend
 ├── frontend-mobile/        # UniApp mobile project
 ├── README.md
 └── ...
+```
 
 
 ## 🧪 Getting Started

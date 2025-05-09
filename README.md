@@ -130,7 +130,5 @@ Feel free to reach out if you'd like to collaborate or discuss technical intervi
 
 ## 📄 License
 
-This project is licensed under the MIT License. See [`LICENSE`](./LICENSE) for details.
-
-```
+This project is licensed under the MIT License.
 
